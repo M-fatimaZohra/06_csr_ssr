@@ -14,5 +14,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [ require('@tailwindcss/line-clamp'),],    //{installed for controlling text overflowing
 } satisfies Config;
