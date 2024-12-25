@@ -57,7 +57,7 @@ function Page() {
  
   
   return (
-    <div className="flex justify-center items-center gap-5 p-5 h-auto bg-gradient-to-b  from-slate-700 via-gray-600 to-slate-500 ">
+    <div className="flex justify-center items-center gap-5 p-5 h-auto bg-gradient-to-b  from-slate-700 via-gray-600 to-slate-500 text-black ">
        <div className="flex justify-center items-center min-h-screen  ">
        {loading ? load : 
        <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 p-5 h-full '>
@@ -83,7 +83,7 @@ function Page() {
                     <div className='flex flex-row justify-between   items-center w-full h-auto text-[18px] '>
                       <div>{items.price}$</div>
                      
-                      <div className='flex flex-col justify-center gap-[4px] items-center w-auto h-auto text-[10px] '>
+                      <div className='flex flex-col justify-center  items-center w-auto h-auto text-[18px] '>
                        
                       <div className="flex flex-row justify-center items-center gap-1"><BsStars className="text-yellow-400" />{items.rating.rate}</div>
                       <div className="flex flex-row justify-center items-center gap-1"> {items.rating.count > 300 ? <FaArrowUp className="text-green-600" /> : <FaArrowDown className="text-red-600" />}{items.rating.count}</div> 

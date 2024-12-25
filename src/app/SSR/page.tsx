@@ -27,7 +27,7 @@ async function page() {
     const notAvalibleYet = <p className='text-[#841d1d]'>not avalible yet</p>
 
   return (
-    <div className='md:h-screen lg:h-auto h-auto bg-gradient-to-b  from-slate-700 via-gray-600 to-slate-500'>
+    <div className='md:h-screen lg:h-auto h-auto bg-gradient-to-b  from-slate-700 via-gray-600 to-slate-500 text-black'>
     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5 '>
         {
             convertor.map((novel: Novels, index) => (
